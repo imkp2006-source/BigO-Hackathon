@@ -1,0 +1,21 @@
+{
+  "name": "logistics-hub",
+  "version": "1.0.0",
+  "description": "LOGISTICS HUB - Warehouse Intelligence & Precision Picking (PS-3)",
+  "scripts": {
+    "start": "node server/index.js",
+    "seed": "node server/seed.js",
+    "dev:server": "node server/index.js",
+    "dev:client": "cd client && npm run dev",
+    "build": "cd client && npm run build"
+  },
+  "keywords": [
+    "warehouse-management-system",
+    "wms",
+    "inventory-tracking",
+    "ps-3",
+    "logistics-hub"
+  ],
+  "author": "Antigravity Engineering",
+  "license": "MIT"
+}
